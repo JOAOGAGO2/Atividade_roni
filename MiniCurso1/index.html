@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Spotify</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="content">
+        <p class="series-type-title">QUAL MÚSICA VOCÊ DESEJA OUVIR?</p>
+        <div class="carousel">
+            <div class="card" data-song_path_name="Bury the Light">
+                <img class="thumbnail" src="./thumbnails/THINGS.jpg">
+                <div class="card-informations">
+                    <p class="card-song-name">Things</p>
+                    <p class="card-author-name">Vintage Culture, Wolf Player, Jets</p>
+                </div>
+            </div>
+            <div class="card" data-song_path_name="cante-por-nos">
+                <img class="thumbnail" src="./thumbnails/CANTE_POR_NOS.jpg">
+                <div class="card-informations">
+                    <p class="card-song-name">Cante por Nós</p>
+                    <p class="card-author-name">Vintage Culture, KVSH, Breno Miranda</p>
+                </div>
+            </div>
+            <div class="card" data-song_path_name="free-original">
+                <img class="thumbnail" src="./thumbnails/FREE_ORIGINAL_REMIX.jpg">
+                <div class="card-informations">
+                    <p class="card-song-name">Free (Original Mix)</p>
+                    <p class="card-author-name">Alok, Vinne</p>
+                </div>
+            </div>
+            <div class="card" data-song_path_name="move-your-body">
+                <img class="thumbnail" src="./thumbnails/MOVE_YOUR_BODY.jpg">
+                <div class="card-informations">
+                    <p class="card-song-name">Move Your Body</p>
+                    <p class="card-author-name">Öwnboss, Sevek</p>
+                </div>
+            </div>
+            <div class="card" data-song_path_name="cali-dreams">
+                <img class="thumbnail" src="./thumbnails/CALI_DREAMS.jpg">
+                <div class="card-informations">
+                    <p class="card-song-name">Cali Dreams (feat. The Beach)</p>
+                    <p class="card-author-name">Vintage Culture, Fancy Inc, The Beach</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="text-song-clicked no-text-card-clicked"></p>
+
+        <div id="audio">
+            <audio id="audio-song"controls volume="0.2">
+                <source src="" type="audio/mp3">
+            </audio>
+        </div>
+
+        <p id="owner">
+            Desenvolvido por
+            <a href="https://www.instagram.com/joaozinho_r.m/" target="_blank">
+                @Joaozinho_r.m
+            </a>
+
+        </p>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
